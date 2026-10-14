@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<script>
+// Source - https://stackoverflow.com/a/73934106
+// Posted by Chang Alex
+// Retrieved 2026-07-04, License - CC BY-SA 4.0
+var audio_;
+function playAudio(src) {
+    if(audio_) audio_.pause();
+	const audio = audio_ = new Audio(src);
+	audio.play();
+}
+</script>
+
+<font size="4">
+<div style="padding: 5px; margin-bottom: 10px; border: 5px double #bbb9a2; border-radius: 30px; background-color: #5a6883; color: #ffffff;" class="audio" onclick="playAudio('https://img.atwiki.jp/raysuntie/attach/164/1286/Cleo_1.opus')">🔊1</div>
+<div style="padding: 5px; margin-bottom: 10px; border: 5px double #bbb9a2; border-radius: 30px; background-color: #5a6883; color: #ffffff;" class="audio" onclick="playAudio('https://img.atwiki.jp/raysuntie/attach/164/1284/Cleo_2.opus')">🔊2</div>
+<div style="padding: 5px; margin-bottom: 10px; border: 5px double #bbb9a2; border-radius: 30px; background-color: #5a6883; color: #ffffff;" class="audio" onclick="playAudio('https://img.atwiki.jp/raysuntie/attach/164/1285/Cleo_3.opus')">🔊3</div>
